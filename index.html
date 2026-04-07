@@ -1,14 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daedo - Modern Web Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">DAEDO</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Innovative Design for <span class="highlight">Modern Web</span></h2>
+                    <p class="hero-subtitle">Building visually appealing and functional prototypes with rich aesthetics and high-performance technologies.</p>
+                    <div class="hero-actions">
+                        <button id="explore-btn" class="btn primary-btn">Explore Now</button>
+                        <button class="btn secondary-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="card-body">
+                            <pre><code>@container (min-width: 500px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h3 class="section-title">Core Principles</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">🚀</div>
+                        <h4>Performance</h4>
+                        <p>Optimized for speed and accessibility using baseline web standards.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🎨</div>
+                        <h4>Design</h4>
+                        <p>Modern components, balanced layouts, and polished visual styles.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🧩</div>
+                        <h4>Modularity</h4>
+                        <p>Reusable Web Components and encapsulated styling with Shadow DOM.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Daedo. Built with modern web standards.</p>
+        </div>
+    </footer>
+
+    <script src="main.js" type="module"></script>
 </body>
 </html>
