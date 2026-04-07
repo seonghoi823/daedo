@@ -1,21 +1,29 @@
-# **Project Blueprint: daedo**
+# Project Blueprint: 대학생 AI 도구 (AI Tools for University Students)
 
-## **Overview**
-A framework-less web project (HTML, CSS, JavaScript) that aims for a modern, responsive, and aesthetically pleasing design, integrated with GitHub for automatic deployment.
+## Overview
+A comprehensive directory of AI tools tailored for university students, categorized by cost (Free/Paid) and functional domains. The platform features an intuitive three-level navigation system and detailed project showcases, starting with an automated web deployment workflow.
 
-## **Detailed Outline & Implemented Features**
-- **Core Technology:** HTML5, CSS3 (Modern features like Container Queries, `:has()`, CSS Variables), JavaScript (ES Modules).
-- **Design:** Modern and intuitive UI with a focus on responsiveness and visual hierarchy.
-  - **Navigation:** Sticky navbar with backdrop blur.
-  - **Hero Section:** High-impact typography and floating card animation.
-  - **Features Section:** Interactive grid with reveal animations.
-- **Hosting/Deployment:** GitHub repository `https://github.com/seonghoi823/daedo` configured as the primary remote.
-- **Automation:** GitHub Actions workflow configured for automatic deployment to GitHub Pages.
+## Design & Style
+- **Expressive Typography:** Using clear, modern sans-serif fonts with emphasized headers.
+- **Vibrant Palette:** A professional yet energetic color scheme (likely blues and purples to represent AI/Tech).
+- **Modern UI Components:** Shadow-lifted cards, glowing interactive elements, and smooth transitions.
+- **Layout:** A clean, responsive grid system. Level 1 and Level 3 categories are presented as interactive buttons, while Level 2 serves as a grouping header.
 
-## **Current Status**
-- Initial modern UI implementation complete.
-- Deployment workflow established.
+## Current Plan: Phase 1 - Framework & Web Auto Deployment [COMPLETED]
+1.  **Core Structure:** Setup `index.html`, `style.css`, and `main.js` with a focus on a single-page application (SPA) feel using Web Components. [DONE]
+2.  **Navigation System:** Implement the logic for: [DONE]
+    *   Level 1: Cost (Free/Paid).
+    *   Level 2: Categories (Productivity, Business, etc.).
+    *   Level 3: Specific tool types (Website Builders, Research, etc.).
+3.  **Feature Page: Web Auto Deployment (웹 자동 배포):** [DONE]
+    *   Located under **Free > AI Business Tools > Website Builders**.
+    *   Create a high-impact "Hero" section.
+    *   Visualize the integration of GitHub, Gemini CLI, Firebase, and Cloudflare.
+    *   Embed the requested YouTube video.
+    *   Detail the 4-step workflow.
 
-## **Next Steps**
-- Enhance interactivity with more Web Components.
-- Implement dark mode support.
+## Technical Outline
+- **HTML5:** Semantic structure with custom elements.
+- **CSS3:** Container queries, CSS variables for theming, and multi-layered shadows.
+- **JS (ES Modules):** State management for category selection and dynamic content rendering.
+- **Icons:** SVG icons for GitHub, Firebase, Cloudflare, and Gemini (simulated/custom).
